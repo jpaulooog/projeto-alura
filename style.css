@@ -1,0 +1,237 @@
+:root {
+    --cor-de-fundo: #161E1E;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #34375E;
+    --botao-inativo: rgba:root {
+    --cor-de-fundo: #161E1E;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #34375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.botoes {
+    display: block; /* Mobile first */
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+}
+
+.botao {
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.aba-conteudo {
+    display: none;
+}
+
+.aba-conteudo.ativo {
+    display: block;
+}(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.botoes {
+    display: block; /* Mobile first */
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {:root {
+    --cor-de-fundo: #161E1E;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #34375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.botoes {
+    display: block; /* Mobile first */
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+}
+
+.botao {
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.aba-conteudo {
+    display: none;
+}
+
+.aba-conteudo.ativo {
+    display: block;
+}:root {
+    --cor-de-fundo: #161E1E;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #34375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.botoes {
+    display: block; /* Mobile first */
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+}
+
+.botao {
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.aba-conteudo {
+    display: none;
+}
+
+.aba-conteudo.ativo {
+    display: block;
+}
+        display: flex;
+    }
+}
+
+.botao {
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.aba-conteudo {
+    display: none;
+}
+
+.aba-conteudo.ativo {
+    display: block;
+}
